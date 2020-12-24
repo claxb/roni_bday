@@ -1,34 +1,29 @@
-#box {
-  border: 15px solid blue;
-  border-radius: 25px;
-  text-align: center;
-  margin: auto;
-  width: 500px;
-  height: 200px;
-  font-family: cursive;
-  background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-  background-size: 110px 200px;
-  background-repeat: repeat-x;
+body {
+ margin: 0%;
+ font-family: 'MedievalSharp', cursive;
 }
 
-
-#social {
-  width: 500px;
-  margin: auto;
- }
-
-body {
-  background-color: green;
-  }
+#box {
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2020/08/15/19/14/hand-5491212_1280.jpg);
+  font-family: cursive;
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+}
 
 h1 {
-  font-size: 2.2em;
+  color: cornsilk;
+  opacity: .7;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 3.5em;
   margin-top: 10px;
   margin-bottom:0;
 }
 
 span {
-  font-size: 1.5em;
+  color: cornsilk;
+  opacity: .8;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 2.5em;
 }
